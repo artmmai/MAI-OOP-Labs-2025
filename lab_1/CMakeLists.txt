@@ -16,9 +16,9 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(googletest)
 
 add_library(lab1_lib STATIC src/replace.cpp)
-add_executable(MAIN_exe main.cpp)
+add_executable(lab_1_exe main.cpp)
 
-target_link_libraries(MAIN_exe lab1_lib)
+target_link_libraries(lab_1_exe lab1_lib)
 
 # Добавляем тесты
 enable_testing()
